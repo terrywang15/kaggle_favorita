@@ -1,0 +1,17 @@
+input:
+  holiday_events: ./data/raw/holiday_events.csv
+  items: ./data/raw/items.csv
+  oil: ./data/raw/oil.csv
+  stores: ./data/raw/stores.csv
+  transactions: ./data/raw/transactions.csv
+  train: ./data/raw/train.csv
+
+intermediate:
+  folder: ./data/intermediate/
+  preprocessed_data: ./data/intermediate/preprocessed_data.csv
+
+model:
+  folder: ./data/model/
+
+output:
+  folder: ./data/output/

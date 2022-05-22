@@ -136,3 +136,6 @@ dmypy.json
 
 # data folder
 data/
+
+# run logs
+logs/

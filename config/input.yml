@@ -1,0 +1,36 @@
+train:
+  index_col: id
+  dtype:
+    id: int32
+    store_nbr: int32
+    item_nbr: int32
+    unit_sales: float32
+    onpromotion: object
+  parse_dates:
+    - date
+
+test:
+  index_col: id
+  dtype:
+    id: int32
+    store_nbr: int32
+    item_nbr: int32
+    onpromotion: object
+  parse_dates:
+    - date
+
+stores:
+  dtype:
+    store_nbr: int32
+    city: object
+    state: object
+    type: object
+    cluster: int32
+    
+items:
+  dtype:
+    item_nbr: int32
+    family: object
+    class: int32
+    perishable: int32
+
