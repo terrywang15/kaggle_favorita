@@ -4,9 +4,9 @@ import logging
 import pandas as pd
 from sklearn.preprocessing import OrdinalEncoder
 
-from src.utils.config import load_config_file, get_run_id
-from src.utils.io_funcs import pickle_object, read_csv, save_csv
-from src.utils.logging import get_logger
+from src.lib.config import load_config_file, get_run_id
+from src.lib.io_funcs import pickle_object, read_csv, save_csv
+from src.lib.logging import get_logger
 
 paths = load_config_file("config/paths.yml")
 input_conf = load_config_file("config/input.yml")
